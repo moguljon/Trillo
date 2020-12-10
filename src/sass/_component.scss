@@ -210,6 +210,12 @@
     align-items: center;
     border-bottom: 1px solid var(--color-primary);
 
+    @media screen and (max-width: $bp-smallest) {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     } 
     &__header {
         text-transform: uppercase;
         font-weight: lighter;
@@ -219,7 +225,7 @@
 
         @media screen and (max-width: $bp-small) {
             margin-right: 1rem;
-            text-transform: capitalize;
+            
          } 
     }
 
@@ -240,6 +246,10 @@
 
     &__location {
         display: flex;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+
+
     }
 
     &__icons {
@@ -294,6 +304,10 @@
     display: flex;
     flex-wrap: wrap;
 
+    @media screen and (max-width: $bp-small) {
+       text-align: center;
+     }
+
     &__items {
         flex: 0 0 50%;
         margin-bottom: .7rem;
@@ -329,10 +343,13 @@
         border-radius: 50%;
         border: 3px solid var(--color-white);
         box-sizing: content-box;
-        
 
         &:not(:last-child) {
             margin-right: -2.5rem;
+
+            @media screen and (max-width: $bp-smallest) {
+                margin-right: 0;
+            }
         }
     }
 }
