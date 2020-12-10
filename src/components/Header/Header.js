@@ -123,10 +123,10 @@ const Header = () => {
               <div className='user-reviews'>
                 <div className='user-review'>
                   <p className='list-paragraph'>
-                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                  We’re committed to creating a safe and relaxing experience, including delivering an even cleaner stay from check-in to check-out.
                   </p>
                   <p className='list-paragraph'>
-                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                  By offering continued travel flexibility and putting the health and safety of our guest and team members front and center. 
                   </p>
                   <ul className='list-reviews'>
                     <li className='list-reviews__items'>Close to the beach</li>
@@ -151,7 +151,7 @@ const Header = () => {
                 <figure className='side-review'>
                   <figure className='review__figure'>
                     <p className='review__paragraph'>
-                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                    Close to home or across the world, Trillo is there for you with memorable offers and experiences. Check out what’s new.
                     </p>
                     <figcaption className='review__figCaption'>
                       <img src={user2} alt='' className='review__photo' />
@@ -164,7 +164,7 @@ const Header = () => {
                   </figure>
                   <figure className='review__figure'>
                     <p className='review__paragraph'>
-                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                    Make your travel dreams come true this season with our 2X Points Package.
                     </p>
                     <figcaption className='review__figCaption'>
                       <img src={user3} alt='' className='review__photo' />
