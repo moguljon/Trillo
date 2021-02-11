@@ -75,7 +75,9 @@ const Header = () => {
                 </li>
               </ul>
               <div className='copyright'>
-                &copy; {`Copyright ${currentDate}. By Trillo.`}
+               <div>
+               &copy; {`Copyright ${currentDate}.Created by `}<a href='https://webstudios.io/'>Web Studios</a>
+              </div> 
               </div>
             </nav>
 
